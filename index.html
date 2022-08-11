@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpô</title>
+</head>
+<body>
+    <header>
+        <h1>Pedra, Papel e Tesoura</h1>
+    </header>
+    <main>
+        <div class="escolhas">
+            <div class="card">
+                <input type="radio" name="selecao" id="pedra" onchange="game(1)" on>
+                <label for="pedra">Pedra</label>
+            </div>
+            <div class="card">
+                <input type="radio" name="selecao" id="papel" onchange="game(2)">
+                <label for="Papel">Papel</label>
+            </div>
+            <div class="card">
+                <input type="radio" name="selecao" id="tesoura" onchange="game(3)">
+                <label for="tesoura">Tesoura</label>
+            </div>
+        </div>
+    </main>
+
+    <script src="jogo.js"></script>
+</body>
+</html>
