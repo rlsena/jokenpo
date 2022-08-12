@@ -12,18 +12,16 @@
         <h1>Pedra, Papel e Tesoura</h1>
     </header>
     <main>
-        <div class="escolhas">
-            <div class="card">
-                <input type="radio" name="selecao" id="pedra" onchange="game(1)" on>
-                <label for="pedra">Pedra</label>
+        <div class="flex row mx-auto col-11 mt-5"> 
+            <div class="col-2 p-2 border border-1 rounded-3 text-white bg-secondary gap-3" onclick="game(1)">
+                <p class="nomeEscolha">Pedra</p>
+                
             </div>
-            <div class="card">
-                <input type="radio" name="selecao" id="papel" onchange="game(2)">
-                <label for="Papel">Papel</label>
+            <div class="col-2 p-2 border border-1 rounded-3 text-white bg-secondary gap-3" onclick="game(2)">
+                <p class="nomeEscolha">Papel</p>
             </div>
-            <div class="card">
-                <input type="radio" name="selecao" id="tesoura" onchange="game(3)">
-                <label for="tesoura">Tesoura</label>
+            <div class="col-2 p-2 border border-1 rounded-3 text-white bg-secondary gap-3" onclick="game(3)">
+                <p class="nomeEscolha">Tesoura</p>
             </div>
         </div>
         <div class="resultado" id="resultado">
